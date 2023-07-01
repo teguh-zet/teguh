@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="pertemuan2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pertemuan HTML kedua</title>
+    <style>
+        .btn{
+            background-color: blue;
+        }
+        #btn1{
+            background-color: crimson ;
+        }
+        ul{
+            display: flex;
+            width: 300px;
+            justify-content: space-between;
+        }
+        span{
+            display: flex;
+        }
+        ul span:hover{
+            background-color: yellowgreen;
+
+        }
+        .container{
+            display: flex;
+            align-items:center ;
+        }
+        .container2{
+            background-color: aquamarine;
+            border: 2px solid blue;
+        }
+        .container3{
+            border: 2px solid red;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+        }
+        .content {
+            border:2px solid black;
+        }
+        aside{
+            border: 2px solid burlywood;
+        }
+        footer{
+            border: 2px solid black;
+        }
+        header{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            
+    <header>
+        <h1>teguh</h1>
+        <a href="berandel.html" target="_blank" title="membukan beranda">beranda</a>
+        </header>
+        <nav>
+        <ul style="list-style: none;">
+
+            <span>
+                <img src="gambar/home-icon-silhouette.png" alt="logo home"> <!--cuma penjelasan--> 
+                <li>home</li>
+                
+            </span>
+            <span>
+                <img src="open-book.png" alt="">
+                <li>buku</li>
+                
+            </span>
+            <span>
+                <img src="open-book.png" alt="">
+                <li>tutorial</li>
+                
+            </span>
+            <span>
+                <img src="open-book.png" alt="">
+                <li>forum</li>
+                
+            </span>
+
+        </ul>
+    </nav>
+    <!-- <button class="btn">A</button>
+    <button class="btn">B</button>
+    <button id="btn1">C</button> -->
+</div>
+<div class="container2">
+    <h2>daftar isi</h2>
+    <ol>
+        <li><a href="#data-diri"> Data diri</a></li>
+        <li><a href="#data-prestasi"> data prestasi</a></li>
+        <li><a href="#pengalaman"> pengalaman </a></li>
+    </ol>
+
+</div>
+<section>
+    <aside>
+        <h3>ini adalah iklan</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos enim corporis quaerat quam ad atque, provident nisi beatae commodi ratione hic quis quibusdam quos nesciunt praesentium minus alias a? Asperiores.</p>
+    </aside>
+    <div class="container3" >
+        <div id="data-diri" class="content">
+            <h1>data diri</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corporis blanditiis laboriosam tenetur consequatur praesentium iure similique minus officiis autem perspiciatis expedita, magnam voluptate odit ipsam, necessitatibus nemo aut consectetur.
+            Dicta, explicabo? Similique ex quibusdam ducimus illo exercitationem illum placeat repellendus possimus laudantium maiores fuga deleniti, nostrum fugiat. Reiciendis commodi consequuntur nam voluptate enim, vero doloremque quia magnam repellendus totam.</p>
+        </div>
+    <div id="data-prestasi" class="content">
+       <h1>data prestasi</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sequi natus, dicta dolorem recusandae cupiditate iure ea quod, ducimus magni neque eveniet numquam ab modi cumque velit dolor adipisci eum.</p>
+    </div>
+    <div id="pengalaman" class="content">
+        <h1>pengalaman</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto, numquam quod eaque sint praesentium a cum veniam minima explicabo alias neque repellat ad nam iure, ducimus nulla cumque exercitationem.
+    </div>
+    </div>
+    <aside>
+        <h3>ini adalah iklan</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos enim corporis quaerat quam ad atque, provident nisi beatae commodi ratione hic quis quibusdam quos nesciunt praesentium minus alias a? Asperiores.</p>
+    
+    </aside>
+</section>
+<footer>
+    <hr>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda cum exercitationem officia esse laboriosam itaque, pariatur incidunt reiciendis hic impedit ipsam ab molestiae, voluptate laudantium, quasi amet debitis? Recusandae?
+</footer>
+
+</body>
+</html>

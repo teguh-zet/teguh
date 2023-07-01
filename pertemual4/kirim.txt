@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="pertemuan.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+
+        <fieldset>
+            <legend>login</legend>
+            <label for="username">username</label>
+            <input type="text" placeholder="username..">
+            <label for="password">password</label>
+            <input type="password">
+            <input type="submit">
+            <button>submit</button>
+        </fieldset>
+        <div>
+            <fieldset>
+                <legend>biodata</legend>
+                <label for="ketua-pubs">Pilih ketua PUB : </label>
+                <select id="ketua-pub" name="ketua">
+                    <option value="volvo">Sukma Harja</option>
+                    <option value="saab">Imran Sihaloho</option>
+                    <option value="fiat">Fadly Ariansyah</option>
+                    <option value="audi">Arya Segara</option>
+                    <option value="audi">Teguh Ahmadi</option>
+                </select>
+            </fieldset>
+        </div>
+        <textarea name="message" cols="30" rows="5">
+
+        </textarea>
+
+    </form>
+
+    <table border="3" style="border: 2px solid blue;">
+        <tr>
+            <td>Baris 1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+        </tr>
+        <tr>
+            <td>Baris 2 kolom 1</td>
+            <td>baris 2 kolom 2</td>
+        </tr>
+    </table>
+    <table border="1" cellpadding="5">
+        <tr>
+            <td colspan="2">susi</td>
+            <td>fadillah</td>
+            <td rowspan="2">  aisyah</td>
+        </tr>
+        <tr>
+            <td>liza</td>
+            <td>raja</td>
+            <td>Imran</td>
+            
+        </tr>
+    </table>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>nama</th>
+                <th>umur</th>
+                <th>prodi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>wahyu</td>
+                <td>20 tahun</td>
+                <td>S1 akuntansi</td>
+            </tr>
+            <tr>
+                <td>teguh ahmadi zebua</td>
+                <td>18 tahun</td>
+                <td>S1 teknik informatika</td>                
+            </tr>
+        </tbody>
+
+    </table>
+    <table border="2">
+        <thead>
+            <tr>
+                <th rowspan="2" bgcolor="yellow">bulan</th>
+                <th colspan="2" bgcolor=" aqua">hasil panen</th>
+            </tr>
+            <tr>
+                <td>padi</td>
+                <td>kacang</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>januari</td>
+                <td>10 kg</td>
+                <td>231 kg</td>
+            </tr>
+            <tr>
+                <td>maret</td>
+                <td>341 kg</td>
+                <td>231 kg</td>
+            </tr>            <tr>
+                <td>april</td>
+                <td>10 kg</td>
+                <td>231 kg</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="3" bgcolor="yellow">keindahan kota banjar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <td rowspan="4"><img src="kebun.jpg" alt="" width="200px"></td>
+                <td>nama tempat </td>
+                <td>gunung fuji</td>
+            </tr>
+            <tr>
+                <td>fasilitas</td>
+                <td>
+                    <ul>
+                        <li>wahana bermain anak</li>
+                        <li>kolam air panas</li>
+                        <li>warung angkringan</li>
+                        <li>toilet umum</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
